@@ -22,7 +22,7 @@ knife=createSprite(300,650);
 knife.addImage(knife_img);
 knife.rotation=-45;
  
-fruit1=createSprite(startx,starty);
+fruit1=createSprite(300,300);
 fruit1.addImage(fruit1_img);
 fruit1.scale=0.3;
  }
