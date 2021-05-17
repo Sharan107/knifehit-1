@@ -1,10 +1,11 @@
-var wheel_img,knife_img;
-var wheel,knife;
+var wheel_img,knife_img,fruit1_img;
+var wheel,knife,fruit1;
 function preload() {
 
  
   wheel_img=loadImage("images/wheel.png");
   knife_img=loadImage("images/sword.png");
+  fruit1_img=loadImage("images/apple.png");
 }
 
 function setup() {
@@ -20,7 +21,10 @@ wheel.addImage(wheel_img);
 knife=createSprite(300,650);
 knife.addImage(knife_img);
 knife.rotation=-45;
-
+ 
+fruit1=createSprite(startx,starty);
+fruit1.addImage(fruit1_img);
+fruit1.scale=0.3;
  }
 
 function draw() {
