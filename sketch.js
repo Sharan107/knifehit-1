@@ -31,7 +31,7 @@ function draw() {
  background(rgb(38,0,73));
  
    
-    wheel.rotation=wheel.rotation+10;
+  //  wheel.rotation=wheel.rotation+10;
 
     //if(keyDown("up")){
      // knife.velocityY=-5;
