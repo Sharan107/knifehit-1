@@ -13,9 +13,9 @@ function setup() {
 wheel=createSprite(300,300);
 wheel.scale=1.3;
 wheel.addImage(wheel_img);
-wheel.rotation=270;
-wheel.debug=false;
-wheel.setCollider("circle",0,0,105);
+//wheel.rotation=270;
+//wheel.debug=false;
+//wheel.setCollider("circle",0,0,105);
   
 knife=createSprite(300,650);
 knife.addImage(knife_img);
@@ -29,9 +29,9 @@ function draw() {
    
     wheel.rotation=wheel.rotation+10;
 
-    if(keyDown("up")){
-      knife.velocityY=-5;
-    }
+    //if(keyDown("up")){
+     // knife.velocityY=-5;
+    //}
   
 
  drawSprites();
